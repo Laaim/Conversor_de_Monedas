@@ -61,7 +61,7 @@ public class App {
                                     JOptionPane.INFORMATION_MESSAGE
                                 );
                             } else if (cambio.equals("Pesos a Euros")) {
-                                resultado = pesos / 880; // Cambia la tasa según el valor real
+                                resultado = pesos / 880;
                                 JOptionPane.showMessageDialog(
                                     null,
                                     pesos + " Pesos argentinos son: " + divisa.format(resultado) + " Euros",
